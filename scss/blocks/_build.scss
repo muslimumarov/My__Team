@@ -1,0 +1,105 @@
+/*! Builds started */
+.build {
+  margin: 0 auto;
+  height: 689px;
+  background-image: url("../../images/intro.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.build__wrapper {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.build__wraptitle {
+  width: 445px;
+}
+.build__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  &::before {
+    display: block;
+    margin-bottom: 54px;
+    width: 50px;
+    height: 4px;
+    background-color: #f67e7e;
+    background-repeat: no-repeat;
+    content: "";
+  }
+}
+.build__list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.build__item {
+  position: relative;
+}
+.build__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+.build__item:nth-child(1)::before {
+  position: absolute;
+  top: 0;
+  left: -96px;
+  width: 72px;
+  height: 72px;
+  margin-right: 23px;
+  width: 72px;
+  height: 72px;
+  background-image: url("../../images/bf1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: "";
+}
+.build__item:nth-child(2)::before {
+  position: absolute;
+  top: 0;
+  left: -96px;
+  width: 72px;
+  height: 72px;
+  margin-right: 23px;
+  width: 72px;
+  height: 72px;
+  background-image: url("../../images/bf2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: "";
+}
+.build__item:nth-child(3)::before {
+  position: absolute;
+  top: 0;
+  left: -96px;
+  width: 72px;
+  height: 72px;
+  margin-right: 23px;
+  width: 72px;
+  height: 72px;
+  background-image: url("../../images/bf3.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: "";
+}
+.build__subtitle {
+  color: #f67e7e;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.build__textwrap {
+  width: 445px;
+}
+.build__desc {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+}

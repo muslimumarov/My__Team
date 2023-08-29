@@ -1,0 +1,42 @@
+/*! Intro section Started 8*/
+.intro__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.intro__inner {
+  width: 635px;
+}
+.intro__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+}
+.intro__span {
+  color: #f67e7e;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+}
+.intro__textinner {
+  width: 445px;
+}
+.intro__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  &::before {
+    display: block;
+    margin-bottom: 79px;
+    width: 50px;
+    height: 4px;
+    background-color: #79c8c7;
+    background-repeat: no-repeat;
+    content:  "";
+  }
+}
